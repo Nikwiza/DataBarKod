@@ -1,0 +1,63 @@
+{
+  "namespace": "flight",
+  "type": "record",
+  "name": "FlightKpi",
+  "fields": [
+    {
+      "name": "to",
+      "type": "string"
+    },
+    {
+      "name": "from",
+      "type": "string"
+    },
+    {
+      "name": "departureTimestamp",
+      "type": ["null", "long"]
+    },
+    {
+      "name": "arrivalTimestamp",
+      "type": ["null", "long"]
+    },
+    {
+      "name": "duration",
+      "type": ["null", "long"]
+    },
+    {
+      "name": "departureDatetime",
+      "type": "string"
+    },
+    {
+      "name": "arrivalDatetime",
+      "type": "string"
+    },
+    {
+      "name": "departureAirportCode",
+      "type": "string"
+    },
+    {
+      "name": "arrivalAirportCode",
+      "type": "string"
+    },
+     {
+          "name": "id",
+          "type": "string"
+        },
+        {
+          "name": "status",
+          "type": "string"
+        },
+        {
+          "name": "gate",
+          "type": "string"
+        },
+        {
+          "name": "airline",
+          "type": "string"
+        },
+        {
+          "name": "date",
+          "type": "string"
+        }
+  ]
+}
